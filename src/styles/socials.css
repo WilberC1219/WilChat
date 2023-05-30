@@ -1,0 +1,25 @@
+.socials {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #738adb;
+  gap: 10px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  gap: 10px;
+}
+
+li:hover {
+  color: white;
+}
+
+a {
+  color: inherit;
+}

@@ -1,6 +1,47 @@
-# Getting Started with Create React App and Redux
+# Wilchat - Discord Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+Wilchat is a Discord clone application that allows users to create channels and send messages within those channels. The application incorporates Google account authentication, requiring users to log in using their Google account. Once logged in, their Google display name and profile picture are used as avatars within Wilchat.
+<br>
+<br>
+Please note that WilChat is my attempt at creating a clone version of Discord and was only created for personal enrichment and to showcase my technical ability. WilChat is not affiliated with, endorsed by, or supported by Discord Inc.
+
+### Table of Contents
+
+- [WilChat description](#wilchat---discord-clone)
+- [Features](#features)
+- [Setup and Installation](#setup-and-installation)
+- [Usage](#usage)
+
+## Features
+
+- User Authentication: Users can log in using their Google accounts to access the application.
+- Channel Creation: Users can create channels to facilitate communication and organization.
+- Messaging: Users can send messages within channels to engage in conversations.
+- Avatars: User avatars are automatically set to their Google display name and profile picture for a personalized experience.
+
+## Technologies Used
+
+- Frontend: HTML, CSS, JavaScript, React
+- Backend: Firebase (Authentication, Real-time Database)
+
+## Setup and Installation
+
+1. Clone the repository.
+2. Install the necessary dependencies using `npm install`.
+3. .....
+4. Start the application using `npm start`.
+
+## Usage
+
+1. Open the application in your web browser and go to `localhost:3000`.
+2. Log in using your Google account.
+3. Create channels to start conversations or join existing channels.
+4. Send messages within the channels to communicate with other users.
+5. Customize your profile and settings as desired.
+
+## Screenshots
+
+Include some screenshots or visual representations of your application here to showcase its features and user interface.
 
 ## Available Scripts
 
@@ -27,20 +68,10 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## License
 
-### `npm run eject`
+This project is licensed under the [MIT License](LICENSE).
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Contact
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+For any inquiries or questions, please contact me at wilberclaudio@gmail.com.
