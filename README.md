@@ -1,3 +1,5 @@
+# README IS INCOMPLETE AT THIS TIME
+
 # Wilchat - Discord Clone
 
 Wilchat is a Discord clone application that allows users to create channels and send messages within those channels. The application incorporates Google account authentication, requiring users to log in using their Google account. Once logged in, their Google display name and profile picture are used as avatars within Wilchat.
