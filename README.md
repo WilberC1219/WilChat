@@ -26,10 +26,30 @@ Please note that WilChat is my attempt at creating a clone version of Discord an
 
 ## Setup and Installation
 
+1. Setup your firebase database by heading to https://firebase.google.com and do the following:\
+    1.1 click on `Get started`. \
+    1.2 click on `Add Project`. \
+    1.3 Enter a project name and click `Create project` (The google analytics option is not required). Once your project has been created click `continue`. \
+    1.4 Enable Google Authentication by going to the left menu, go to `Build > Authentication`. At the top of the page go to `Sign-in Method` and then select and enable `Google` as a sign-in provider. Make sure you enter a Project support email, then click `save`. \
+    1.5 Create a database by going to the left menu, go to `Build > Firestore Database`. At the top of the page click on `Create database`. A prompt will appear asking to select security rules for Cloud Firestore then setting Cloud Firestore location, for the purpose of showcasing WilChat select `Start in test mode` for the security rule and click `Next`. For the location, you may leave it on the default location that is chosen for you, then click `Enable`. \
+    1.6 Get your Firebase Config Information. Go to the left menu next to `Project Overview` click the gear icon. Now scroll down to the section `Your apps` then click the `</>` icon... (NOT COMPLETE) \
+    1.7 **Optional Step:** By default the Firestore database is configured to to expire after 30 days because of security reasons. If you would like to prevent that on the left menu, go to `Build > Firestore Database` and at the top menu click on `rules` then under `edit rules` add any rules you'd like to have. For the simplicity of just removing the default 30 day expiration use the following code. (Keep in mind the rule I provided below is not safe practice and will leave your database vulerable.) \
+
+   ```
+   rules_version = '2';
+   service cloud.firestore {
+     match /databases/{database}/documents {
+       match /{document=**} {
+         allow read, write: if request.auth != null;
+       }
+     }
+   }
+   ```
+
 1. Clone the repository.
-2. Install the necessary dependencies using `npm install`.
-3. .....
-4. Start the application using `npm start`.
+1. Install the necessary dependencies using `npm install`.
+1. .....
+1. Start the application using `npm start`.
 
 ## Usage
 
