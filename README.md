@@ -83,7 +83,7 @@ Please note that WilChat is my attempt at creating a clone version of Discord an
   export default db;
 ```
 
-6. WilChat is now fully set up and can be started using `npm start`. Upon successful completion of running the start command your CLI should look say the following:
+6. WilChat is now fully set up and can be started using `npm start`. Upon successful completion of running the start command your CLI will say the following:
 
 ```
   Compiled successfully!
